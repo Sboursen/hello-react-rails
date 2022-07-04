@@ -1,1 +1,1 @@
-json.array! @greetings, partial: "greetings/greeting", as: :greeting
+json.partial! "greetings/greeting", greeting: @random_greeting
