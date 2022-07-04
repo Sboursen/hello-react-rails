@@ -4,10 +4,7 @@ class GreetingsController < ApplicationController
   # GET /greetings or /greetings.json
   def index
     @random_greeting = Greeting.find(Greeting.ids.sample)
-    respond_to do |format|
-      format.html
-      format.json { render json: @random_greeting}
-    end
+    render json: @random_greeting
   end
 
   # # GET /greetings/1 or /greetings/1.json
