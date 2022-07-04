@@ -1,1 +1,1 @@
-json.partial! "greetings/greeting", greeting: @random_greeting
+json.partial! 'greetings/greeting', greeting: @random_greeting
