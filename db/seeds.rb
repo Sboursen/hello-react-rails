@@ -7,18 +7,63 @@
 #   Character.create(name: "Luke", movie: movies.first)
 Greeting.create!([
                    {
-                     message: 'Hello 1'
+                     language: 'ALGOL',
+                     message: 'BEGIN DISPLAY("HELLO WORLD!") END.'
                    },
                    {
-                     message: 'Hello 2'
+                     language: 'APPLESCRIPT',
+                     message: 'say "Hello, world!"'
                    },
                    {
-                     message: 'Hello 3'
+                     language: 'C',
+                     message: 'printf("hello, world\n");'
                    },
                    {
-                     message: 'Hello 4'
+                     language: 'CAML (OCAML)',
+                     message: 'print_endline "Hello, world!";;'
                    },
                    {
-                     message: 'Hello 5'
+                     language: 'CLOJURE (CLOJURESCRIPT)',
+                     message: '(println "Hello world!")'
+                   },
+                   {
+                     language: 'DBASE (FOXPRO)',
+                     message: '? "Hello World"'
+                   },
+                   {
+                     language: 'ERLANG',
+                     message: 'hello_world() -> io:fwrite("hello, world\n").'
+                   },
+                   {
+                     language: 'ELIXIR',
+                     message: 'IO.puts "Hello World!"'
+                   },
+                   {
+                     language: 'HASKELL',
+                     message: 'main = putStrLn "Hello, World!"'
+                   },
+                   {
+                     language: 'JAVASCRIPT (ECMASCRIPT)',
+                     message: 'console.log("Hello World!");'
+                   },
+                   {
+                     language: 'PHP',
+                     message: '<?php echo "Hello, World";'
+                   },
+                   {
+                     language: 'RUBY',
+                     message: "puts 'Hello World!'"
+                   },
+                   {
+                     language: 'RUST',
+                     message: 'println!("Hello, world!");'
+                   },
+                   {
+                     language: 'PYTHON',
+                     message: 'print("Hello World")'
+                   },
+                   {
+                     language: 'PYTHON',
+                     message: 'print("Hello World")'
                    }
                  ])
