@@ -1,24 +1,65 @@
-# README
+# Description
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> **hello-rails-react** is a simple scholastic project to learn using React with rails in one project.
 
-Things you may want to cover:
+## Built with
 
-* Ruby version
+- Rails
+- React
+- Redux
+- Postgresql
 
-* System dependencies
+## App demo
 
-* Configuration
+[demo](./docs/hello-react-rails.gif)
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+### Prerequisites
 
-* Services (job queues, cache servers, search engines, etc.)
+- Ruby
+- Postgresql
 
-* Deployment instructions
+### Setup
 
-* ...
+- Clone the Repository
+- Go to the project directory
+- Run `bundle install`
+- Run `yarn install`
+- Run `rails db:create`
+- Run `rails db:migrate`
+- Run `rails db:seed`
+
+### Usage
+
+- Run `./bin/webpack-dev-server`
+- Run `rails s`
+- They should be run simultaneously!
+
+## Authors
+
+👤 **Soufiane Boursen**
+
+- GitHub: [@Sboursen](https://github.com/Sboursen)
+- Twitter: [@sboursen_dev](https://twitter.com/sboursen_dev)
+- LinkedIn: [@sboursen](https://linkedin.com/in/sboursen)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
